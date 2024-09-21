@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos1.css">
+    <script src="../JavaS/script.js" defer></script>
+    <title>Gato</title>
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <h1>Gato</h1>
+    <section id="principal">
+        <article id="comandos">
+            <br>
+            <br>
+            <label>Jugador 1:</label>
+            <input type="text" id="Jugador_1" placeholder="Ingresa un nombre o número" autofocus required><br>
+            <label>Jugador 2:</label>
+            <input type="text" id="Jugador_2" placeholder="Ingresa un nombre o número" required><br>
+            <br>
+            <input type="button" id ="inicio" value="Comenzar">
+            <br>
+            <br>
+            <label id="TurnoJugador"></label>
+            <br>
+      <br>
+      <br>
+      
+      <button class="btn" onclick="principal()">Regresar al menú principal</button>
+        </article>
+        <article id="tablero">
+            <input type="button" id="b0" onclick="colocar(this)">
+            <input type="button" id="b1" onclick="colocar(this)">
+            <input type="button" id="b2" onclick="colocar(this)"><br>
+
+            <input type="button" id="b3" onclick="colocar(this)">
+            <input type="button" id="b4" onclick="colocar(this)">
+            <input type="button" id="b5" onclick="colocar(this)"><br>
+
+            <input type="button" id="b6" onclick="colocar(this)">
+            <input type="button" id="b7" onclick="colocar(this)">
+            <input type="button" id="b8" onclick="colocar(this)"><br>
+        </article>
+    </section>
+    <footer>Chagoya Martinez Daniel Alberto - Méndez Ruiz Fernando</footer>
+</body>
+</html>
