@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="imagenes/favicon.webp">
+	<meta charset="UTF-8">
+	<meta name="author" content="Fernando Mendez, Rojas Gonzalez, Cruz Quiroz y Chayoga Martinez">
+	<meta http-equiv="refresh" content="60">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/estilos/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>BLACK BEARD</title>
+</head>
+<body>
+	
+	<script>
+		function myFunction() {
+			var x = document.getElementById("mynav");
+			if (x.className === "nav") {
+				x.className += " responsive";
+			} else {
+				x.className = "nav";
+			}
+		}
+		</script>
+		 
+	<div class="nav" id="mynav">
+		<a class="active" href="index.html"> Inicio </a>
+		<a href="/Navegacion/productos.html"> Productos </a>
+		<a href="/Navegacion/ubicacion.html"> Ubicación </a>
+		<a href="/Navegacion/citas.html"> Citas </a>
+		<a href="/Navegacion/quienessomos.html"> ¿Quiénes Somos? </a>
+		<a href="/Navegacion/contactanos.html"> Contactanos </a>
+		<a href="/Navegacion/administrador.html"> Administrador </a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	
+	<div style="color:white" align="center">
+		<br>
+		<script>
+		var meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo","Junio", "Julio", "Agosto","Septiembre","Octubre", "Noviembre","Diciembre");
+		var f=new Date();
+		document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+		</script>
+	</div>
+
+	<div class="nombre"> BLACK BEARD </div>
+
+	<footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/imagenes/logotipo.png" alt="BLACK BEARD">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Teléfono: 5587982368</p>
+				<p>Contacto: contacto@blackbeard.com</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a id="face" href="https://www.facebook.com/pages" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <p> &copy; Fernando Mendez Ruiz, Cruz Quiroz Mariana, Rojas Gonzalez Jorge, Chagoya Martinez Daniel Alberto - Todos los derechos reservados </p>
+        </div>
+    </footer>
+	
+
+</body>
+</html>
